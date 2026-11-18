@@ -1,4 +1,4 @@
-{"skill_id": "ovos-skill-pictures.emkay-voice", "utterance": "me mostre um cachorro", "lang": "pt-BR", "intent_label": "dog.intent"}
-{"skill_id": "ovos-skill-pictures.emkay-voice", "utterance": "quero ver um filhote", "lang": "pt-BR", "intent_label": "dog.intent"}
-{"skill_id": "ovos-skill-pictures.emkay-voice", "utterance": "me mostre um gato", "lang": "pt-BR", "intent_label": "cat.intent"}
-{"skill_id": "ovos-skill-pictures.emkay-voice", "utterance": "me dê uma foto de um gatinho", "lang": "pt-BR", "intent_label": "cat.intent"}
+{"skill_id": "ovos-skill-pictures-example.emkay-voice", "utterance": "me mostre um cachorro", "lang": "pt-BR", "intent_label": "dog.intent"}
+{"skill_id": "ovos-skill-pictures-example.emkay-voice", "utterance": "quero ver um filhote", "lang": "pt-BR", "intent_label": "dog.intent"}
+{"skill_id": "ovos-skill-pictures-example.emkay-voice", "utterance": "me mostre um gato", "lang": "pt-BR", "intent_label": "cat.intent"}
+{"skill_id": "ovos-skill-pictures-example.emkay-voice", "utterance": "me dê uma foto de um gatinho", "lang": "pt-BR", "intent_label": "cat.intent"}

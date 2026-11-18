@@ -1,4 +1,4 @@
-{"skill_id": "ovos-skill-pictures.emkay-voice", "utterance": "show me a dog", "lang": "en-US", "intent_label": "dog.intent"}
-{"skill_id": "ovos-skill-pictures.emkay-voice", "utterance": "i want to see a puppy", "lang": "en-US", "intent_label": "dog.intent"}
-{"skill_id": "ovos-skill-pictures.emkay-voice", "utterance": "show me a cat", "lang": "en-US", "intent_label": "cat.intent"}
-{"skill_id": "ovos-skill-pictures.emkay-voice", "utterance": "give me a kitten picture", "lang": "en-US", "intent_label": "cat.intent"}
+{"skill_id": "ovos-skill-pictures-example.emkay-voice", "utterance": "show me a dog", "lang": "en-US", "intent_label": "dog.intent"}
+{"skill_id": "ovos-skill-pictures-example.emkay-voice", "utterance": "i want to see a puppy", "lang": "en-US", "intent_label": "dog.intent"}
+{"skill_id": "ovos-skill-pictures-example.emkay-voice", "utterance": "show me a cat", "lang": "en-US", "intent_label": "cat.intent"}
+{"skill_id": "ovos-skill-pictures-example.emkay-voice", "utterance": "give me a kitten picture", "lang": "en-US", "intent_label": "cat.intent"}

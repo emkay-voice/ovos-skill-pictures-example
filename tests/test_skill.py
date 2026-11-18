@@ -12,11 +12,11 @@ from ovos_bus_client.message import Message
 from ovos_utils.fakebus import FakeBus
 
 ROOT = Path(__file__).parent.parent
-PACKAGE = ROOT / "ovos_skill_pictures"
+PACKAGE = ROOT / "ovos_skill_pictures_example"
 sys.path.insert(0, str(ROOT))
-import ovos_skill_pictures as pkg  # noqa: E402
+import ovos_skill_pictures_example as pkg  # noqa: E402
 
-SKILL_ID = "ovos-skill-pictures.emkay-voice"
+SKILL_ID = "ovos-skill-pictures-example.emkay-voice"
 LANGS = sorted(p.name for p in (PACKAGE / "locale").iterdir() if p.is_dir())
 
 

@@ -1,6 +1,6 @@
 {
-  "skill_id": "ovos-skill-pictures.emkay-voice",
-  "source": "https://github.com/emkay-voice/template-screen",
+  "skill_id": "ovos-skill-pictures-example.emkay-voice",
+  "source": "https://github.com/emkay-voice/ovos-skill-pictures-example",
   "name": "Images",
   "description": "Affiche une photo de chien ou de chat à l'écran.",
   "examples": [

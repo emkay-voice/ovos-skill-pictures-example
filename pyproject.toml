@@ -3,7 +3,7 @@ requires = ["setuptools>=64"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ovos-skill-pictures"
+name = "ovos-skill-pictures-example"
 version = "0.1.0"
 description = "Shows a picture on the screen: a dog or a cat, from free web services"
 readme = "README.md"
@@ -26,17 +26,17 @@ dependencies = [
 test = ["pytest", "ovos-bus-client"]
 
 [project.urls]
-Homepage = "https://github.com/emkay-voice/template-screen"
+Homepage = "https://github.com/emkay-voice/ovos-skill-pictures-example"
 
 # how OpenVoiceOS finds the skill: "<skill id>" = "<package>:<class>"
 [project.entry-points."opm.skill"]
-"ovos-skill-pictures.emkay-voice" = "ovos_skill_pictures:PicturesSkill"
+"ovos-skill-pictures-example.emkay-voice" = "ovos_skill_pictures_example:PicturesSkill"
 
 [tool.setuptools]
-packages = ["ovos_skill_pictures"]
+packages = ["ovos_skill_pictures_example"]
 
 [tool.setuptools.package-data]
-ovos_skill_pictures = ["locale/**/*"]
+ovos_skill_pictures_example = ["locale/**/*"]
 
 [tool.pytest.ini_options]
 addopts = "--import-mode=importlib"

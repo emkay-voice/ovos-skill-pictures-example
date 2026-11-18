@@ -17,7 +17,7 @@ permissions:
 jobs:
   pypi:
     # not the template itself, only the skills made from it
-    if: github.repository != 'emkay-voice/template-screen'
+    if: github.repository != 'emkay-voice/ovos-skill-pictures-example'
     runs-on: ubuntu-latest
     environment: pypi
     steps:
