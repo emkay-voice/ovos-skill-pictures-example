@@ -8,7 +8,7 @@ without a screen still hears the answer.
   cats: https://thecatapi.com/
 
 Try changing: the title shown with the picture (dog_title.dialog), how the
-picture fills the screen (FILL), or show text instead with
+picture fills the screen (FILL), how long it stays (SHOW_FOR), or show text instead with
 self.gui.show_text("Hello!").
 """
 import requests
@@ -19,6 +19,7 @@ from ovos_workshop.skills import OVOSSkill
 DOG_API = "https://dog.ceo/api/breeds/image/random"
 CAT_API = "https://api.thecatapi.com/v1/images/search"
 FILL = "PreserveAspectFit"   # the whole picture; "PreserveAspectCrop" fills the screen
+SHOW_FOR = 30                # seconds on the screen before the clock comes back
 
 
 class PicturesSkill(OVOSSkill):
@@ -38,7 +39,8 @@ class PicturesSkill(OVOSSkill):
         if not url:
             self.speak_dialog("no_picture")
             return
-        self.gui.show_image(url, title=self.dialog_renderer.render(f"{kind}_title"), fill=FILL)
+        self.gui.show_image(url, title=self.dialog_renderer.render(f"{kind}_title"),
+                            fill=FILL, override_idle=SHOW_FOR)
         self.speak_dialog(f"{kind}_here")
 
     @intent_handler("dog.intent")

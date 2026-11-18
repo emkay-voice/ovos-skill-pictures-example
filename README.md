@@ -25,6 +25,7 @@ still hears the answer.
 ## Try changing
 
 - `FILL` – `PreserveAspectCrop` fills the whole screen;
+- `SHOW_FOR` – how many seconds the picture stays before the clock comes back;
 - show text instead: `self.gui.show_text("Hello!")`;
 - a third animal: a new intent, two dialogs, and a free picture service.
 
