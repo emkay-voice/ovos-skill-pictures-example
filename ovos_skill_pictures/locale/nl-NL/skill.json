@@ -1,0 +1,16 @@
+{
+  "skill_id": "ovos-skill-pictures.emkay-voice",
+  "source": "https://github.com/emkay-voice/template-screen",
+  "name": "Foto's",
+  "description": "Toont een foto van een hond of een kat op het scherm.",
+  "examples": [
+    "Laat me een hond zien",
+    "Laat me een kat zien"
+  ],
+  "tags": [
+    "gui",
+    "screen",
+    "pictures",
+    "emkay"
+  ]
+}

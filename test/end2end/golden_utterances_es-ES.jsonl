@@ -1,0 +1,4 @@
+{"skill_id": "ovos-skill-pictures.emkay-voice", "utterance": "enséñame un perro", "lang": "es-ES", "intent_label": "dog.intent"}
+{"skill_id": "ovos-skill-pictures.emkay-voice", "utterance": "quiero ver un cachorro", "lang": "es-ES", "intent_label": "dog.intent"}
+{"skill_id": "ovos-skill-pictures.emkay-voice", "utterance": "enséñame un gato", "lang": "es-ES", "intent_label": "cat.intent"}
+{"skill_id": "ovos-skill-pictures.emkay-voice", "utterance": "dame una foto de un gatito", "lang": "es-ES", "intent_label": "cat.intent"}

@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ovos-skill-pictures"
+version = "0.1.0"
+description = "Shows a picture on the screen: a dog or a cat, from free web services"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+authors = [{name = "emkay-voice"}]
+requires-python = ">=3.10"
+keywords = ["ovos", "openvoiceos", "skill", "emkay", "gui", "screen", "pictures", "dog", "cat"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+]
+# what the skill needs besides OpenVoiceOS itself; Emkay installs these too
+dependencies = [
+    "ovos-workshop>=0.0.15,<10.0.0",
+    "requests",
+]
+
+[project.optional-dependencies]
+test = ["pytest", "ovos-bus-client"]
+
+[project.urls]
+Homepage = "https://github.com/emkay-voice/template-screen"
+
+# how OpenVoiceOS finds the skill: "<skill id>" = "<package>:<class>"
+[project.entry-points."opm.skill"]
+"ovos-skill-pictures.emkay-voice" = "ovos_skill_pictures:PicturesSkill"
+
+[tool.setuptools]
+packages = ["ovos_skill_pictures"]
+
+[tool.setuptools.package-data]
+ovos_skill_pictures = ["locale/**/*"]
+
+[tool.pytest.ini_options]
+addopts = "--import-mode=importlib"
+testpaths = ["tests"]

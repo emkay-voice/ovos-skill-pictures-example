@@ -1,0 +1,16 @@
+{
+  "skill_id": "ovos-skill-pictures.emkay-voice",
+  "source": "https://github.com/emkay-voice/template-screen",
+  "name": "Imaxes",
+  "description": "Amosa na pantalla a foto dun can ou dun gato.",
+  "examples": [
+    "Amósame un can",
+    "Amósame un gato"
+  ],
+  "tags": [
+    "gui",
+    "screen",
+    "pictures",
+    "emkay"
+  ]
+}

@@ -1,0 +1,4 @@
+{"skill_id": "ovos-skill-pictures.emkay-voice", "utterance": "laat me een hond zien", "lang": "nl-NL", "intent_label": "dog.intent"}
+{"skill_id": "ovos-skill-pictures.emkay-voice", "utterance": "ik wil een puppy zien", "lang": "nl-NL", "intent_label": "dog.intent"}
+{"skill_id": "ovos-skill-pictures.emkay-voice", "utterance": "laat me een kat zien", "lang": "nl-NL", "intent_label": "cat.intent"}
+{"skill_id": "ovos-skill-pictures.emkay-voice", "utterance": "geef me een kattenfoto", "lang": "nl-NL", "intent_label": "cat.intent"}

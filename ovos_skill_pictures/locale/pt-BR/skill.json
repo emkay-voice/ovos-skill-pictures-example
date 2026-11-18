@@ -1,0 +1,16 @@
+{
+  "skill_id": "ovos-skill-pictures.emkay-voice",
+  "source": "https://github.com/emkay-voice/template-screen",
+  "name": "Imagens",
+  "description": "Mostra a foto de um cachorro ou de um gato na tela.",
+  "examples": [
+    "Me mostre um cachorro",
+    "Me mostre um gato"
+  ],
+  "tags": [
+    "gui",
+    "screen",
+    "pictures",
+    "emkay"
+  ]
+}
